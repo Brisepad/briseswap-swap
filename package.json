@@ -84,7 +84,7 @@
   "scripts": {
     "start": "yarn run transfer && react-scripts start",
     "transfer": "cp -R ./sub_packages/@pancakeswap-libs ./node_modules",
-    "build": "react-scripts build",
+    "build": "yarn run transfer && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
