@@ -23,7 +23,7 @@
       "symbol": "BPAD",
       "address": "0x71946a5C9dA7C95ee804a9BE561EC15A3F286A7D",
       "chainId": 32520,
-      "decimals": 18,
+      "decimals": 8,
       "logoURI": "https://exchange.briseswap.finance/images/coins/0x078D1b73bbc94C83bA2371A164761A35a66b8612.png"
     }
     
