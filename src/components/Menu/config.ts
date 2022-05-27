@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://app.briseswap.finance/#/farms',
+    href: 'https://briseswap.finance/#/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://app.briseswap.finance/#/pools',
+    href: 'https://briseswap.finance/#/pools',
   },
   // {
   //   label: 'Lottery',
