@@ -59,6 +59,14 @@
       "logoURI": "https://exchange.briseswap.finance/images/coins/0x1A8a039007186d7640C1D7Cd7c2606e333D04e03.png"
     },
     {
+      "name": "OmniaVerse Token",
+      "symbol": "OMNIA",
+      "address": "0x5d4685c2C75581C67b9D6292A065a767bC214681",
+      "chainId": 32520,
+      "decimals": 8,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0x5d4685c2C75581C67b9D6292A065a767bC214681.png"
+    },
+    {
       "name": "Vefi Ecosystem Token",
       "symbol": "VEF",
       "address": "0xD6447d2fA919811c41a064bDbdaB1E281F8de9B2",
