@@ -6,6 +6,7 @@ import { LanguageContext } from 'hooks/LanguageContext'
 import useTheme from 'hooks/useTheme'
 import useGetPriceData from 'hooks/useGetPriceData'
 import useGetLocalProfile from 'hooks/useGetLocalProfile'
+import useGetBswapPrice from 'hooks/useGetBswapPrice'
 import useAuth from 'hooks/useAuth'
 import links from './config'
 import { CAKE } from '../../constants'
@@ -18,7 +19,7 @@ const Menu: React.FC = (props) => {
   const priceData = useGetPriceData()
   const cakePriceUsd = priceData ? Number(priceData.data[CAKE.address].price) : undefined
   const profile = useGetLocalProfile()
-
+  const bswapPrice = useGetBswapPrice()
   return (
     <UikitMenu
       links={links}
@@ -30,7 +31,7 @@ const Menu: React.FC = (props) => {
       currentLang={selectedLanguage?.code || ''}
       langs={allLanguages}
       setLang={setSelectedLanguage}
-      cakePriceUsd={cakePriceUsd}
+      cakePriceUsd={bswapPrice}
       profile={profile}
       {...props}
     />

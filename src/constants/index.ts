@@ -7,11 +7,11 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-// Bswap CA = 0xF69dB78C0b6E96f2F2691e28B9f1200E9850a3aA
+// Bswap CA = 0xF26006408112be347c23FDBa03F7bC3566519655
 // Fswap CA = 0x078D1b73bbc94C83bA2371A164761A35a66b8612
 // CAKE CA = 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82
 
-export const CAKE = new Token(ChainId.MAINNET, '0xF69dB78C0b6E96f2F2691e28B9f1200E9850a3aA', 18, 'Bswap', 'BriseSwap Token')
+export const CAKE = new Token(ChainId.MAINNET, '0xF26006408112be347c23FDBa03F7bC3566519655', 18, 'Bswap', 'BriseSwap Token')
 
 export const WBNB = new Token(ChainId.MAINNET, '0x0eb9036cbE0f052386f36170c6b07eF0a0E3f710', 18, 'WBRISE', 'Wrapped Brise')
 // export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')

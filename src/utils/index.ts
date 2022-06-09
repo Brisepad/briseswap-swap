@@ -68,11 +68,9 @@ export function calculateSlippageAmount(value: CurrencyAmount, slippage: number)
   if (slippage < 0 || slippage > 10000) {
     throw Error(`Unexpected slippage value: ${slippage}`)
   }
-  console.log('Slippage before: ', slippage)
   if(isDecimal(slippage)){
     slippage = Math.round(slippage)
   }
-  console.log('Slippage after: ', slippage)
   return [
     JSBI.divide(JSBI.multiply(value.raw, JSBI.BigInt(10000 - slippage)), JSBI.BigInt(10000)),
     JSBI.divide(JSBI.multiply(value.raw, JSBI.BigInt(10000 + slippage)), JSBI.BigInt(10000))
