@@ -21,10 +21,10 @@
     {
       "name": "BriseSwap Token",
       "symbol": "BSWAP",
-      "address": "0xF69dB78C0b6E96f2F2691e28B9f1200E9850a3aA",
+      "address": "0xF26006408112be347c23FDBa03F7bC3566519655",
       "chainId": 32520,
       "decimals": 18,
-      "logoURI": "https://exchange.briseswap.finance/images/coins/0xF69dB78C0b6E96f2F2691e28B9f1200E9850a3aA.png"
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0xF26006408112be347c23FDBa03F7bC3566519655.png"
     },
     {
       "name": "BrisePad Token",
