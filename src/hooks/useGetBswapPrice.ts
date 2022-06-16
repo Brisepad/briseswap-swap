@@ -22,7 +22,6 @@ const useGetBswapPrice = () => {
     
     const fetchData = async () => {
       try {
-        // getAmountsOut
         // const response = await fetch(api)
         const brisePriceBN = await brisePriceFromAPI()
         if(!chainId || !library){
@@ -41,7 +40,6 @@ const useGetBswapPrice = () => {
         
     }, [setPrice, chainId, library])
   
-  console.log("Price: ", price)
 
   return price
 
