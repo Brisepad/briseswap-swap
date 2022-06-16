@@ -145,7 +145,40 @@
       "chainId": 32520,
       "decimals": 18,
       "logoURI": "https://exchange.briseswap.finance/images/coins/0xc89fcd3E1CF5A355fc41E160d18BAC5f624610D4.png"
+    },
+    {
+      "name": "Metaverse City Tokyo Token",
+      "symbol": "TOKYO",
+      "address": "0x38EA4741d100cAe9700f66B194777F31919142Ee",
+      "chainId": 32520,
+      "decimals": 9,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0x38EA4741d100cAe9700f66B194777F31919142Ee.png"
+    },
+    {
+      "name": "Graphen",
+      "symbol": "ELTG",
+      "address": "0xb860eCD8400600c13342a751408737235E177077",
+      "chainId": 32520,
+      "decimals": 9,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0xb860eCD8400600c13342a751408737235E177077.png"
+    },
+    {
+      "name": "Mixed Reality",
+      "symbol": "MIR",
+      "address": "0x2468dad471fA7E03d8029F057cc41742F017D53d",
+      "chainId": 32520,
+      "decimals": 18,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0x2468dad471fA7E03d8029F057cc41742F017D53d.png"
+    },
+    {
+      "name": "Darrival",
+      "symbol": "DRV",
+      "address": "0xeB18A16A08530b811523fA49310319809ac4c979",
+      "chainId": 32520,
+      "decimals": 9,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0xeB18A16A08530b811523fA49310319809ac4c979.png"
     }
+
     
   ]
 }
