@@ -22,7 +22,7 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms',
+    label: 'Mines',
     icon: 'FarmIcon',
     href: 'https://briseswap.finance/#/farms',
   },
