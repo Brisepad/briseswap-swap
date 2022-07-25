@@ -209,6 +209,14 @@
       "chainId": 32520,
       "decimals": 9,
       "logoURI": "https://exchange.briseswap.finance/images/coins/0x9F7Bb6E8386ac9ad5e944d66fBa80F3F7231FA94.png"
+    },
+    {
+      "name": "VaultCoin",
+      "symbol": "VTC",
+      "address": "0xe6F2c07942DA91134138041e6391E8457274E456",
+      "chainId": 32520,
+      "decimals": 18,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0xe6F2c07942DA91134138041e6391E8457274E456.png"
     }
 
     
