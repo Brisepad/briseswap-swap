@@ -217,6 +217,14 @@
       "chainId": 32520,
       "decimals": 18,
       "logoURI": "https://exchange.briseswap.finance/images/coins/0xe6F2c07942DA91134138041e6391E8457274E456.png"
+    },
+    {
+      "name": "Meta Force Brise",
+      "symbol": "META",
+      "address": "0x31122FF4F06AC5392F46AFf05C3eB0677a05D210",
+      "chainId": 32520,
+      "decimals": 18,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0x31122FF4F06AC5392F46AFf05C3eB0677a05D210.png"
     }
 
     
