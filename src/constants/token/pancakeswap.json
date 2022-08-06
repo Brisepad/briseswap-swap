@@ -225,6 +225,14 @@
       "chainId": 32520,
       "decimals": 18,
       "logoURI": "https://exchange.briseswap.finance/images/coins/0x31122FF4F06AC5392F46AFf05C3eB0677a05D210.png"
+    },
+    {
+      "name": "CCubeProtocol",
+      "symbol": "CCUBE",
+      "address": "0xD2C685D6CB45F6E32618337599Cc7C0Bf11C65ff",
+      "chainId": 32520,
+      "decimals": 18,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0xD2C685D6CB45F6E32618337599Cc7C0Bf11C65ff.png"
     }
 
     
