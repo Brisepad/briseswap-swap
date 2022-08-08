@@ -233,6 +233,14 @@
       "chainId": 32520,
       "decimals": 18,
       "logoURI": "https://exchange.briseswap.finance/images/coins/0xD2C685D6CB45F6E32618337599Cc7C0Bf11C65ff.png"
+    },
+    {
+      "name": "xRICE Token",
+      "symbol": "xRICE",
+      "address": "0x722f5f012D29Cc4d6464B6a46343fBA3881eaa56",
+      "chainId": 32520,
+      "decimals": 18,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0x722f5f012D29Cc4d6464B6a46343fBA3881eaa56.png"
     }
 
     
