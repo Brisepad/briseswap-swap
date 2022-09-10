@@ -241,6 +241,14 @@
       "chainId": 32520,
       "decimals": 18,
       "logoURI": "https://exchange.briseswap.finance/images/coins/0x722f5f012D29Cc4d6464B6a46343fBA3881eaa56.png"
+    },
+    {
+      "name": "RICE Token",
+      "symbol": "RICE",
+      "address": "0x1eb697Cb6F457F6a65C682F7f7c65F9f2E622A34",
+      "chainId": 32520,
+      "decimals": 18,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0x1eb697Cb6F457F6a65C682F7f7c65F9f2E622A34.png"
     }
 
     
