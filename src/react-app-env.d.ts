@@ -7,10 +7,23 @@ declare module 'jazzicon' {
 declare module 'fortmatic'
 
 interface Window {
+  bitkeep?: {
+    ethereum?: {
+      isMetaMask?: true
+      on?: (...args: any[]) => void
+      removeListener?: (...args: any[]) => void
+      isBitKeep?: boolean
+      isBitEthereum?: boolean
+      isBitKeepChrome?: boolean
+    }  
+  }
   ethereum?: {
     isMetaMask?: true
     on?: (...args: any[]) => void
     removeListener?: (...args: any[]) => void
+    isBitKeep?: boolean
+    isBitEthereum?: boolean
+    isBitKeepChrome?: boolean
   }
   web3?: any
   BinanceChain?: BinanceChain

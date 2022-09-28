@@ -50,7 +50,6 @@ const useGetBswapPrice = () => {
         
     }, [setPrice, chainId, library])
   
-  console.log("bswap price: ", price)
   return price
 
 }

@@ -29,6 +29,7 @@ export function shouldCheck(
 export default function Updater(): null {
   const { chainId, library } = useActiveWeb3React()
 
+
   const lastBlockNumber = useBlockNumber()
 
   const dispatch = useDispatch<AppDispatch>()
