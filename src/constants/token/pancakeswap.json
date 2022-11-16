@@ -197,10 +197,10 @@
     {
       "name": "Tether USD",
       "symbol": "USDT",
-      "address": "0xDe14b85cf78F2ADd2E867FEE40575437D5f10c06",
+      "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
       "chainId": 32520,
-      "decimals": 18,
-      "logoURI": "https://exchange.briseswap.finance/images/coins/0xDe14b85cf78F2ADd2E867FEE40575437D5f10c06.png"
+      "decimals": 6,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D.png"
     },
     {
       "name": "Aibra",
