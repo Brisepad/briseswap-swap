@@ -227,6 +227,30 @@
       "logoURI": "https://exchange.briseswap.finance/images/coins/0x31122FF4F06AC5392F46AFf05C3eB0677a05D210.png"
     },
     {
+      "name": "Ardiansyah Crypto",
+      "symbol": "ARCO",
+      "address": "0xbfa6394b9898566652276f1Fb40d65e75787D66f",
+      "chainId": 32520,
+      "decimals": 9,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0xbfa6394b9898566652276f1Fb40d65e75787D66f.png"
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "chainId": 32520,
+      "decimals": 6,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0x765277EebeCA2e31912C9946eAe1021199B39C61.png"
+    },
+    {
+      "name": "Binance",
+      "symbol": "BSC BNB",
+      "address": "0x922D641a426DcFFaeF11680e5358F34d97d112E1",
+      "chainId": 32520,
+      "decimals": 18,
+      "logoURI": "https://exchange.briseswap.finance/images/coins/0x922D641a426DcFFaeF11680e5358F34d97d112E1.png"
+    },
+    {
       "name": "CCubeProtocol",
       "symbol": "CCUBE",
       "address": "0xD2C685D6CB45F6E32618337599Cc7C0Bf11C65ff",
@@ -250,7 +274,5 @@
       "decimals": 18,
       "logoURI": "https://exchange.briseswap.finance/images/coins/0x1eb697Cb6F457F6a65C682F7f7c65F9f2E622A34.png"
     }
-
-    
   ]
 }
