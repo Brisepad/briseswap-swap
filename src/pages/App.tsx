@@ -1,5 +1,6 @@
 import React, { Suspense, useEffect, useState } from 'react'
 import { HashRouter, Route, Switch } from 'react-router-dom'
+import { useWeb3React } from '@web3-react/core'
 import styled from 'styled-components'
 import { Credentials, StringTranslations } from '@crowdin/crowdin-api-client'
 import { LangType } from '@pancakeswap-libs/uikit'
@@ -64,6 +65,7 @@ const Marginer = styled.div`
 const CACHE_KEY = 'pancakeSwapLanguage'
 
 export default function App() {
+  const { account } = useWeb3React()
   const [selectedLanguage, setSelectedLanguage] = useState<any>(undefined)
   const [translatedLanguage, setTranslatedLanguage] = useState<any>(undefined)
   const [translations, setTranslations] = useState<Array<any>>([])
@@ -123,6 +125,11 @@ export default function App() {
   }
 
   useGetDocumentTitlePrice()
+  useEffect(() => {
+    if (account) {
+      window.hashmail?.identify(account)
+    }
+  }, [account])
 
   return (
     <Suspense fallback={null}>
