@@ -45,7 +45,11 @@ const useAuth = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  return { login, logout: deactivate }
+  const logout = useCallback(() => {
+    deactivate()
+    window.hashmail.disconnect()
+  }, [deactivate])
+  return { login, logout }
 }
 
 export default useAuth

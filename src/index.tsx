@@ -1,4 +1,4 @@
-import React, { StrictMode } from 'react'
+import React, { StrictMode, useEffect } from 'react'
 import ReactDOM from 'react-dom'
 import { ResetCSS } from '@pancakeswap-libs/uikit'
 import GlobalStyle from './style/Global'
@@ -17,7 +17,7 @@ if ('ethereum' in window) {
 }
 
 window.addEventListener('error', () => {
-   localStorage?.removeItem('redux_localstorage_simple_lists')
+  localStorage?.removeItem('redux_localstorage_simple_lists')
 })
 
 ReactDOM.render(
